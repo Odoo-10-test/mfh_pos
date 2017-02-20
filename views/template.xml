@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="MfhPos_point_of_sale_js" name="mfh_point_of_sale assests" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+               <script type="text/javascript" src="/mfh_pos/static/src/js/mfh_pos.js"></script>
+            </xpath>
+        </template>
+    </data>
+</odoo>
